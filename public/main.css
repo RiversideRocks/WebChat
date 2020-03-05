@@ -1,0 +1,40 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+    font: 13px Courier New;
+}
+form { background: black; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+form button { width: 9%; background: grey; border: none; padding: 10px; }
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }
+#main { padding:100% }
+
+
+.header {
+  padding: 15.5px;
+  text-align: center;
+  background: #1abc9c;
+  color: grey;
+  font-size: 30px;
+}
+
+
+.header2 {
+  padding: 10px;
+  text-align: center;
+  background: #ffa600;
+  color: brown;
+  font-size: 30px;
+}
+
+button {
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
